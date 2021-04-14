@@ -1,5 +1,5 @@
 # paulo-victor-poo-p7-info
-Atividade Referente ao dia 29 de Março de 2021
+Atividade Referente a Semana de 22 de Março de 2021
 
 Criar uma lista em Python para implementar as seguintes Estruturas de Dados:
 1) Pilha (inserir e retirar pelo topo da Pilha. Considerar o topo como sendo o índice 0 da Lista.
