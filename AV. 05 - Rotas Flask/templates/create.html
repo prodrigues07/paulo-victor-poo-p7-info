@@ -1,0 +1,15 @@
+{% extends 'form.html' %}
+
+{% block titulo %}{{ super()}} - Criar{% endblock %}
+
+{% block formulario %}
+<h3>Inclusão Usuários</h3>
+<hr/>
+<form action="" method="post">
+    <label for="cliente">Cliente</label><br>
+    <input type="text" name="cliente" placeholder="Cliente"/><br>
+    <label for="cpf">CPF</label><br>
+    <input type="text" name="cpf" placeholder="CPF"/><br>
+    <input type="submit" value="Enviar"/>
+</form>
+{% endblock %}

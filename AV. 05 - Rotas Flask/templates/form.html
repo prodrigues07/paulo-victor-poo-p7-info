@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>{% block titulo %} Cliente {% endblock %}</title>
+</head>
+<body>
+<div>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class=flashes>
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+</div>
+<div>
+    {% block formulario %}
+    {% endblock %}
+</div>
+</body>
+</html>

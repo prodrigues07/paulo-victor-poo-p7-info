@@ -1,0 +1,17 @@
+{% extends 'form.html' %}
+
+{% block titulo %}{{ super()}} - Atualizar{% endblock %}
+
+{% block formulario %}
+<h3>Atualização Usuários</h3>
+<hr/>
+<form action="" method="post">
+    <label for="cliente">Cliente</label><br>
+    <input type="text" name="cliente" placeholder="Cliente"/><br>
+    <label for="cpf">CPF</label><br>
+    <input type="text" name="cpf" placeholder="CPF"/><br>
+    <label for="id">ID</label><br>
+    <input type="text" name="id" placeholder="ID"/><br>
+    <input type="submit" value="Enviar"/>
+</form>
+{% endblock %}
